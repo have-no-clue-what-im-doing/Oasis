@@ -1,0 +1,289 @@
+#navigator {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  
+  width: 75%;
+  text-align: center;
+
+}
+
+#quote {
+	padding: 5% 15% 5% 15%;
+	text-align: center;
+	font-style: italic;
+	font-size: 21px;
+	/* border: 2px solid; */
+	
+}
+
+nav {
+	text-align: center;
+	margin: auto;
+}
+
+li {
+  
+}
+audio {
+	position: fixed;
+}
+#navigator li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 12px 6px;
+  text-decoration: none;
+  font-family: 'Helvetica-Black', Arial, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#navigator li a:hover {
+  color: black;
+  text-shadow: -1px 0px white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+body {
+	margin: 0px;
+	
+	
+	
+}
+
+#backgroundimg {
+	background: url('oasisback.png') no-repeat center center fixed;
+	background-size: cover;
+	
+	
+}
+.twitter {
+	display: flex;
+	
+}
+.twitter > div {
+	flex: 1; /*grow*/
+	padding-bottom: 35px;
+}
+
+.spotify {
+	display: flex;
+	
+}
+.spotify > div {
+	flex: 1; /*grow*/
+	padding: 5px;
+}
+#backgroundimg2 {
+	background: url('oasisback2.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+#backgroundimg3 {
+	background: url('oasisback3.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+header {
+	text-align: center;
+
+}
+
+#header a {
+	font-style: italic;
+	text-align: center;
+	color: White;
+	width: 65%;
+	margin: auto;
+	margin-bottom: 10px;
+	height: 50px;
+	padding-top: 5px;
+	padding-bottom: 50px;
+	font-family: 'Helvetica-Black', Arial, sans-serif; 
+	font-size: 2em;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+	
+	
+}
+
+#header a:hover {
+	color: black;
+	text-shadow: -1px 0px white, 0 1px white, 1px 0 white, 0 -1px white;
+	
+	
+}
+
+
+ @font-face {
+	font-family: "Helvetica-Black"; 
+	src: url("Helvetica-Black.ttf");
+}
+
+
+#wrapper {
+	width: 50%;
+	margin: auto;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: white;
+	margin-top: 20px;
+	
+
+}
+
+#adobe-dc-view {
+	margin: 0 auto;
+}
+
+footer { font-size: 15px;
+       font-style: italic;
+	   text-align: center;
+	   padding: 20px;
+	  
+	
+	   
+	   
+}
+
+
+ h1 {
+	font-size: 45px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+
+
+
+
+@media only screen and (max-width: 75em) {
+	
+#navigator {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  
+  width: 75%;
+  text-align: center;
+
+}
+#Hello {
+	width: 25%;
+	position: fixed;
+}
+
+#header {
+	
+	text-align: center;
+	color: White;
+	width: 75%;
+	margin: auto;
+	margin-bottom: 10px;
+	height: 50px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	
+}
+
+h1{
+	font-size: 40px;
+}
+
+
+#wrapper {
+	width: 72%;
+}
+
+
+#navigator li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+
+
+
+@media only screen and (max-width: 37.5em) {
+	
+#navigator {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  
+  width: 100%;
+  text-align: center;
+
+}
+#Hello {
+	width: 30%;
+}
+
+#header {
+	
+	text-align: center;
+	color: White;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 10px;
+	height: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+h1{
+	font-size: 22px;
+	
+}
+
+
+#wrapper {
+	width: 89%;
+	
+}
+
+.twitter {
+	display: block;
+	padding-bottom: 35px;
+}
+.twitter > div {
+	flex: 0; /*grow*/
+}
+
+
+
+
+.spotify {
+	display: block;
+	padding-bottom: 0px;
+}
+.spotify > div {
+	flex: 0; /*grow*/
+	padding: 5px; 
+} 
+
+
+
+#navigator li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+
+
+}
